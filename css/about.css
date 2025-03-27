@@ -1,0 +1,364 @@
+.hero-about {
+    background: linear-gradient(135deg, #2a2a72 0%, #009ffd 100%);
+    color: white;
+    padding: 120px 0 80px;
+    text-align: center;
+}
+
+.hero-about h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-about .lead {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+.mission {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.mission-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mission-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2a2a72;
+}
+
+.mission-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.mission-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.stat {
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat:hover {
+    transform: translateY(-5px);
+}
+
+.stat .number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #009ffd;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.values {
+    padding: 80px 0;
+}
+
+.values h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #2a2a72;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.value-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.value-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2a2a72;
+}
+
+.impact {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.impact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #2a2a72;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.impact-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.impact-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2a2a72;
+}
+
+.impact-card p {
+    line-height: 1.6;
+}
+
+.join-cta {
+    padding: 80px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #2a2a72 0%, #009ffd 100%);
+    color: white;
+}
+
+.join-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.join-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #2a2a72;
+}
+
+.team-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mentor-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mentor-card .member-photo {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.mentor-card h3 {
+    font-size: 2rem;
+    color: #2a2a72;
+    margin-bottom: 10px;
+}
+
+.mentor-card .role {
+    font-size: 1.2rem;
+    color: #009ffd;
+    margin-bottom: 20px;
+}
+
+.mentor-card .credentials {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.mentor-card .credentials p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.mentor-card .member-quote {
+    font-style: italic;
+    color: #2a2a72;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    position: relative;
+}
+
+.mentor-card .member-quote::before,
+.mentor-card .member-quote::after {
+    content: '"';
+    color: #009ffd;
+    font-size: 1.5em;
+}
+
+.student-leaders {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.team-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card .member-photo {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    font-size: 1.5rem;
+    color: #2a2a72;
+    margin-bottom: 10px;
+}
+
+.team-card .role {
+    color: #009ffd;
+    margin-bottom: 10px;
+}
+
+.team-card .project {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.mentorship {
+    padding: 80px 0;
+}
+
+.mentorship h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2a2a72;
+}
+
+.mentorship-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mentorship-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.mentorship-points {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.mentorship-points li {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #2a2a72;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-about h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-about .lead {
+        font-size: 1.2rem;
+    }
+    
+    .mission-content h2,
+    .values h2,
+    .impact h2,
+    .join-cta h2 {
+        font-size: 2rem;
+    }
+    
+    .stat .number {
+        font-size: 2rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mentor-card {
+        padding: 30px;
+    }
+
+    .mentor-card h3 {
+        font-size: 1.8rem;
+    }
+
+    .mentorship-points {
+        grid-template-columns: 1fr;
+    }
+} 
